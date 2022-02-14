@@ -1,0 +1,27 @@
+.feed{
+    flex:5;
+    width: 35vw;
+}
+
+.feedWrapper{
+    padding: 20px;
+    background-color: var(--cinza16);
+}
+
+@media screen and (max-width: 1024px) {
+    .feed {
+        flex: 7;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .feed {
+        flex: 9;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .feed {
+      flex: 12;
+    }
+}

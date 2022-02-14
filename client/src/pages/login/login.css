@@ -1,0 +1,72 @@
+.login {
+    background-color: #161616;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.login > .loginBox{
+    background-color: #202020;
+    border-radius: 10px;
+    max-height: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.loginBox > .loginInput{
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.loginBox > .loginInput:focus{
+    outline: none;
+}
+
+.loginBox > .loginButton{
+    background-color: #1775ee;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.loginBox > .loginButton:focus{
+    outline: none;
+}
+.loginBox > .loginButton:disabled{
+  cursor: not-allowed;
+}
+.loginBox > .loginForgot{
+    color: #1775ee;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginBox > .loginRegisterButton{
+    background-color: #42b72a;
+    color: white;
+    width: 60%;
+    height: 50px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+  

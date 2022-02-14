@@ -1,0 +1,28 @@
+.leftBar {
+  flex: 3.5;
+  background-color: var(--cinza16);
+}
+
+@media screen and (max-width: 1024px) {
+  .leftBar {
+    flex: 2.5;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leftBar {
+    flex: 1.5;
+  }
+}
+@media screen and (max-width: 500px) {
+  .leftBar {
+      flex: 0.5;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .leftBar {
+    flex: 0;
+    display: none;
+  }
+}

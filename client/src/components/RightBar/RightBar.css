@@ -1,0 +1,56 @@
+.rightBar {
+    flex: 3.5;
+    background-color: var(--cinza16);
+}
+
+.rightBar > .rightBarWrapper {
+    padding: 20px 20px 0 0;
+    display: flex;  
+    align-content: center;
+    justify-content: space-around;
+}
+
+.rightBarWrapper > .messageButton,
+.rightBarWrapper > .rightBarFollowButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightBarFollowButton:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .rightBar {
+        flex: 2.5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rightBar {
+        flex: 1.5;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rightBar {
+        flex: 0.5;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .rightBar {
+        flex: 0;
+        display: none;
+    }
+}

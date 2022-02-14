@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--cinza1a);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--cinza3a);
+    border-radius: 10px;
+    border: 1px solid var(--cinza20) ;
+}
+
+:root {
+    --cinza16: #161616;
+    --cinza1a: #1a1a1a;
+    --cinza20: #202020;
+    --cinza33: #333;
+    --cinza3a: #3a3a3a;
+    --cinza3f: #3f3f3f;
+    --cinza5d: #5d5d5d;
+}
